@@ -55,7 +55,8 @@ restore() {
     green "型号:$model_info"
     case "$model_info" in
     *2500* | *3000* | *6000*)
-        check_istoreos_style_installed
+        # still use normal restore                                                                                    
+        # check_istoreos_style_installed     
         normal_restore
         ;;
     *)
